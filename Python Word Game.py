@@ -24,8 +24,8 @@ if place = "Work"
 print "Ah."
 
 
-print "Oh, look, a pig latin translator. Do be careful.  It is a cold, cruel world out there."
 #Pig Latin translator
+print "Oh, look, a pig latin translator.  You must use it to proceed.  Do be careful.  It is a cold, cruel world out there."
 pyg = 'ay'
 original = raw_input('Enter a word:')
 if len(original) > 0 and original.isalpha():
