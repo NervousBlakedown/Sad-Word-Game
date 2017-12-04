@@ -23,7 +23,6 @@ place = raw_input("Where do you go first?")
 if place = "Work"
 print "Ah."
 
-
 #Pig Latin translator
 print "Oh, look, a pig latin translator.  You must use it to proceed.  Do be careful.  It is a cold, cruel world out there."
 pyg = 'ay'
