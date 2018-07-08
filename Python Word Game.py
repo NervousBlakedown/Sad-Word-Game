@@ -1,4 +1,4 @@
-#Begin/Name and Age Validation
+# Begin/Name and Age Validation.
 print "Hello.  Welcome to the depressing adventure word game.  Life is meaningless."
 name = raw_input("What is your name?");
 if len(name) > 0 and name.isalpha():
@@ -23,7 +23,7 @@ place = raw_input("Where do you go first?")
 if place = "Work"
 print "Ah."
 
-#Pig Latin translator
+# Pig Latin translator.
 print "Oh, look, a pig latin translator.  You must use it to proceed.  Do be careful.  It is a cold, cruel world out there."
 pyg = 'ay'
 original = raw_input('Enter a word:')
