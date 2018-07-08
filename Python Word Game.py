@@ -15,7 +15,14 @@ if len(age) < 18:
 else:
     print "Really?  {age}?  Prove it."
 #insert funny way of checking date of birth, then asking something like 'how old were you when NSync's first single came out' or 'what was your mom wearing in 2003'
-
+Nsync_debut = "05-26-1997"
+def age_validation():
+	if raw_input < Nsync_debut
+	print "*Sigh*, okay, I believe you.  Let's proceed."
+	else:
+		print "That's what I thought.  Get lost, kid."
+		end
+		
 print "Okay, {name}, age {age}, let's begin the story."
 print "It is a boring day like all the others.  You wake up at 5:30 A.M.  An ungodly hour."
 place = raw_input("Where do you go first?")
