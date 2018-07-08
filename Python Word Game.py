@@ -17,7 +17,7 @@ else:
 #insert funny way of checking date of birth, then asking something like 'how old were you when NSync's first single came out' or 'what was your mom wearing in 2003'
 Nsync_debut = "05-26-1997"
 def age_validation():
-	if raw_input < Nsync_debut
+	if raw_input < Nsync_debut:
 	print "*Sigh*, okay, I believe you.  Let's proceed."
 	else:
 		print "That's what I thought.  Get lost, kid."
