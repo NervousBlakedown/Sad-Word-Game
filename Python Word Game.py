@@ -8,6 +8,7 @@ else:
         if len(name) > 0 and name.isalpha():
             print "Ah, finally, {name}, thank you for not being a smart-ass anymore.  Welcome."
 
+
 print "Now that we know your name, we must confirm your age is eighteen years or older.  This game is not inappropriate, we just feel safer knowing you are old enough to be held responsible for all of your stupid decisions."
 age = raw_input("What is your age?");
 if len(age) < 18:
@@ -15,13 +16,13 @@ if len(age) < 18:
 else:
     print "Really?  {age}?  Prove it."
 
-#insert funny way of checking date of birth, then asking something like 'how old were you when NSync's first single came out' or 'what was your mom wearing in 2003'
-Nsync_debut = "05-26-1997"
+# Age validation with Nsync.
 def age_validation(age):
 	if age <= Nsync_debut:
 	print "*Sigh*, okay, I believe you.  Let's proceed."
 	else:
 		print "That's what I thought.  Get lost, kid."
+
 
 print "Okay, {name}, age {age}, let's begin the story."
 print "It is a boring day like all the others.  You wake up at 5:30 A.M.  An ungodly hour."
@@ -29,6 +30,7 @@ place = raw_input("Where do you go first?")
 #find way to list options (dropdown or lettered multiple choice), options: "work", "school", "brothel"
 if place = "Work"
 print "Ah."
+
 
 # Pig Latin translator.
 print "Oh, look, a pig latin translator.  You must use it to proceed.  Do be careful.  It is a cold, cruel world out there."
