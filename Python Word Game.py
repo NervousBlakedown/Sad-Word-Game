@@ -44,3 +44,6 @@ if len(original) > 0 and original.isalpha():
   	print new_word
 else:
   	print 'empty'
+
+
+print "Now, we've come for the bill."
