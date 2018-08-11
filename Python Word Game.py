@@ -17,6 +17,7 @@ else:
     print "Really?  {age}?  Prove it."
 
 # Age validation with Nsync.
+Nsync_debut = "1995"
 def age_validation(age):
 	if age <= Nsync_debut:
 	print "*Sigh*, okay, I believe you.  Let's proceed."
