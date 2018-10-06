@@ -1,3 +1,10 @@
+# Packages.
+import numpy as np
+import name
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
+
 # Begin/Name and Age Validation.
 print "Hello.  Welcome to the depressing adventure word game.  Life is meaningless."
 name = raw_input("What is your name?");
@@ -7,7 +14,6 @@ else:
     print "My apologies, {name}.  It appears your name sucks and does not qualify as a real name.  Please change your name to proceed."
         if len(name) > 0 and name.isalpha():
             print "Ah, finally, {name}, thank you for not being a smart-ass anymore.  Welcome."
-
 
 print "Now that we know your name, we must confirm your age is eighteen years or older.  This game is not inappropriate, we just feel safer knowing you are old enough to be held responsible for all of your stupid decisions."
 age = raw_input("What is your age?");
@@ -32,7 +38,14 @@ place = raw_input("Where do you go first?")
 if place = "Work"
 print "Ah."
 
-
+# Next destination.
+print "Hey, {name}, how've you been?"
+second_place = raw_input("Where next?")
+if len(second_place) > 0:
+    print "Okay, looks like we're going to {second_place}!"
+else:
+    print "Did you really think I wouldn't notice you hitting the return key without typing anything?  I am insulted and triggered."
+    
 # Pig Latin translator.
 print "Oh, look, a pig latin translator.  You must use it to proceed.  Do be careful.  It is a cold, cruel world out there."
 pyg = 'ay'
