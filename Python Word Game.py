@@ -25,7 +25,7 @@ else:
 # Age validation with Nsync.
 def age_validation(age):
     nsync_debut = 18
-	if age <= Nsync_debut:
+	if age >= Nsync_debut:
 	print "*Sigh*, okay, I believe you.  Let's proceed."
 	else:
 		print "That's what I thought.  Get lost, kid."
@@ -45,7 +45,7 @@ if len(second_place) > 0:
     print "Okay, looks like we're going to {second_place}!"
 else:
     print "Did you really think I wouldn't notice you hitting the return key without typing anything?  I am insulted and triggered."
-    
+
 # Pig Latin translator.
 print "Oh, look, a pig latin translator.  You must use it to proceed.  Do be careful.  It is a cold, cruel world out there."
 pyg = 'ay'
