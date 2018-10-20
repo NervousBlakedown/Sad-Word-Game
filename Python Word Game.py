@@ -71,3 +71,4 @@ def fib(n):
         return 1
     else:
         return fib(n-1) + fib(n-2)
+print "Well!  Nicely done.  Not sure what that has to do with the game, but alas, here we are."
