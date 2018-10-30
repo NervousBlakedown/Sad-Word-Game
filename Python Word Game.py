@@ -3,7 +3,6 @@ import numpy as np
 import name
 import matplotlib.pyplot as plt
 import seaborn as sns
-import pandas as pd
 
 # Begin/Name and Age Validation.
 print "Hello.  Welcome to the depressing adventure word game.  Life is meaningless."
