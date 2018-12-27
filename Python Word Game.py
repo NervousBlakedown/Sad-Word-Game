@@ -1,8 +1,6 @@
 # Packages.
 import numpy as np
 import name
-import matplotlib.pyplot as plt
-import seaborn as sns
 
 # Begin/Name and Age Validation.
 print "Hello.  Welcome to the depressing adventure word game.  Life is meaningless."
@@ -12,7 +10,7 @@ if len(name) > 0 and name.isalpha():
 else:
     print "My apologies, {name}.  It appears your name sucks and does not qualify as a real name.  Please change your name to proceed."
         if len(name) > 0 and name.isalpha():
-            print "Ah, finally, {name}, thank you for not being a smart-ass anymore.  Welcome."
+            print "Ah, finally, {name}, thank you for not being a smart-ass anymore."
 
 print "Now that we know your name, we must confirm your age is eighteen years or older.  This game is not inappropriate, we just feel safer knowing you are old enough to be held responsible for all of your stupid decisions."
 age = raw_input("What is your age?");
