@@ -43,6 +43,14 @@ if len(second_place) > 0:
 else:
     print "Did you really think I wouldn't notice you hitting the return key without typing anything?  I am insulted and triggered."
 
+# One more stop.
+print "I haven't heard from you in a while, {name}, how are you?  Let's go to our next stop."
+third_place = raw_input("Where to?")
+if len(third_place) > 0 and is not second_place:
+    print "So, here we go.  {third_place} it is."
+else:
+    print "...Really?  Feel free to pick a new location.  Idiot."
+
 # Pig Latin translator.
 print "Oh, look, a pig latin translator.  You must use it to proceed.  Do be careful.  It is a cold, cruel world out there."
 pyg = 'ay'
